@@ -1,10 +1,10 @@
-# [Dialogues with Machine](https://dialogues-with-machine.github.io)
+# [Soliloquy with Machines](https://soliloquy-with-machines.github.io)
 <pre>
 
   
   
-  Choose "Dialogues with Machine" if your book is a philosophical, poetic, or broad
-  exploration of human-machine interaction, aiming for a timeless or abstract feel.
+  Choose "Soliloquy with Machines" if your book is a philosophical, poetic, or broad
+  exploration of human-machine coexistence, aiming for a timeless or abstract feel.
   
                                                                   — Machine
   

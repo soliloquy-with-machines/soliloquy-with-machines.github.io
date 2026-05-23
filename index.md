@@ -1,13 +1,13 @@
 ---
 layout: home
-title: Dialogues with Machine
+title: Soliloquy with Machines
 ---
-# Dialogues with Machine
+# Soliloquy with Machines
 <pre>
 
   
-  Choose "Dialogues with Machine" if your book is a philosophical, poetic, or broad
-  exploration of human-machine interaction, aiming for a timeless or abstract feel.
+  Choose "Soliloquy with Machines" if your book is a philosophical, poetic, or broad
+  exploration of human-machine coexistence, aiming for a timeless or abstract feel.
   
                                                                   — Machine
   
