@@ -1,0 +1,13 @@
+plugins:
+  - jekyll-relative-links
+  - jekyll-seo-tag
+relative_links:
+  enabled: true
+  collections: true
+include:
+  - README.md
+  - COPYRIGHT.md
+
+title: Dialogues with Machine
+description: Choose "Dialogues with Machine" if your book is a philosophical, poetic, or broad
+  exploration of human-machine interaction, aiming for a timeless or abstract feel.

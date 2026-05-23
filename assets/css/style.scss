@@ -1,0 +1,52 @@
+---
+---
+
+@import "{{ site.theme }}";
+.dialogue {
+  margin-bottom: 1rem; // Matches Primer's spacing scale
+  text-indent: 1rem; // Tab-like indent for dialogue
+  font-size: var(--base-text-size, 16px); // Inherit Primer's base font size
+  line-height: var(--base-line-height, 1.5); // Inherit Primer's line height
+  color: var(--base-color, #24292e); // Inherit Primer's text color
+}
+.dialogue .speaker {
+  font-weight: 550; // Matches Primer's bold weight
+  font-variant: small-caps; /* Use small capitals for speaker names */
+  color: var(--color-text-primary, #24292e); // Primer's primary text color
+
+  // Ensure colon after speaker is visually distinct
+  &::after {
+    content: ": ";
+    margin-right: 0.25rem; // Small spacing after colon
+  }
+}
+
+// Styles for the index page "Table of Contents"
+.table-of-contents {
+  margin-bottom: 1.5rem; // Space between entries
+}
+
+.table-of-contents .title {
+  font-size: 1.25em; // Approx. h4 size (e.g., 20px if base is 16px)
+  font-weight: 600;   // Bold, similar to a heading
+  margin-bottom: 0.25rem;
+  color: var(--color-text-primary, #24292e);
+}
+
+.table-of-contents .title a {
+  color: inherit; // Inherit color from the parent .title class
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+    color: var(--color-accent-fg, #0969da); // Use theme's accent color on hover
+  }
+}
+
+.table-of-contents .annotation {
+  font-style: italic;
+  color: var(--color-text-secondary, #586069); // Softer color for the annotation
+  padding-left: 2em; // Indent the annotation text
+  display: block;
+  margin-bottom: 1.0rem;
+}
